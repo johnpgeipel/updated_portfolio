@@ -500,7 +500,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
+        /* background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081); */
         z-index: -1;
         opacity: .6; }
         .banner-div {
