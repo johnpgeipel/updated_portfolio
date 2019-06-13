@@ -379,9 +379,9 @@
 
 
       /*============ 3. Navbar ============*/
-      .navbar-nav {
+      /* .navbar-nav {
         background-color: #f6c71a;
-      }
+      } */
       nav.navbar {
       position: absolute;
       width: 100%;
@@ -2253,7 +2253,7 @@ button#contact-submit {
       @media screen and (max-width: 991px) {
       .navbar-collapse {
       text-align: center;
-      background: #3a3f78;
+      background: #f6c71a;
       }
       .navbar-collapse .nav-item {
       padding: 0 !important; }
