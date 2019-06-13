@@ -1165,7 +1165,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
+        background:transparent linear-gradient(to right bottom, #f6c71a, #f6c71a);
         opacity: 0;
         -webkit-transform: scale(0.8);
         -ms-transform: scale(0.8);
@@ -2166,9 +2166,12 @@ button#contact-submit {
       bottom: 0;
       left: 0;
       right: 0;
-      background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
+      /* background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081); */
       z-index: -1;
       opacity: .6; 
+      }
+      .deets {
+        color: #f6c71a;
       }
       .page-title-div {
       top: 50%;
