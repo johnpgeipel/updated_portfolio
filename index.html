@@ -806,7 +806,7 @@
                        <div class="section-title">
                             <div class="main-title">
                                 <h4>Contact <span>Me</span></h4>
-                                <h6>Contact With Me</h6>
+                                <h6>Connect With Me</h6>
                             </div>
                             
                        </div>
@@ -815,7 +815,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <!--Contact Form-->
-                        <form id='contact-form' method='POST'><input type='hidden' name='form-name' value='contactForm' />
+                        <form id='contact-form' action="https://formspree.io/johnpgeipel@gmail.com" method='POST'><input type='hidden' name='form-name' value='contactForm' />
                             <div class="row">
                                <div class="col-md-6">
                                   <div class="form-group">
@@ -824,7 +824,7 @@
                                </div>
                                <div class="col-md-6">
                                   <div class="form-group">
-                                     <input type="email" name="email" class="form-control" id="email" placeholder="Email *" required="required">
+                                     <input type="email" name="_replyto" class="form-control" id="email" placeholder="Email *" required="required">
                                   </div>
                                </div>
                                <div class="col-md-12">
@@ -833,11 +833,18 @@
                                   </div>
                                </div>
                                 <div class="col-md-12 text-center">
+                                        <!-- <input type="submit" value="Send"> -->
                                     <!--contact button-->
-                                    <button id="contact-submit" class="div-btn">
+                                    <button id="contact-submit" class="div-btn"
+                                            type="submit" value="Send">
                                         Send Message
                                     </button>
                                 </div>
+                                <!-- <form action="https://formspree.io/email@domain.tld" method="POST">
+                                    <input type="text" name="name">
+                                    <input type="email" name="_replyto">
+                                    <input type="submit" value="Send">
+                                  </form> -->
                             </div>
                         </form>
                     </div>
@@ -910,6 +917,7 @@
         <!--Site Main js-->
         <script src="assets/js/contact.js"></script>
         <script src="assets/js/main.js"></script>
+        
 
     </body>
 </html>

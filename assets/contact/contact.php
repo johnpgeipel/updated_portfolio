@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = '<info@johnpgeipel.github.io/updated_portfolio/>'; 
+$from = '<info@http://johnpgeipel.github.io/updated_portfolio/>'; 
 $sendTo = '<johnpgeipel@gmail.com>';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
