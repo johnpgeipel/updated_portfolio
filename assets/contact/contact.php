@@ -1,4 +1,4 @@
-<?php
+<!-- <?php -->
 
 // configure
 $from = '<info@http://johnpgeipel.github.io/updated_portfolio/>'; 

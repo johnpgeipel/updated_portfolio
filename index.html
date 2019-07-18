@@ -815,7 +815,8 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <!--Contact Form-->
-                        <form id='contact-form' action="https://formspree.io/johnpgeipel@gmail.com" method='POST'><input type='hidden' name='form-name' value='contactForm' />
+                        <form id='contact-form' action="https://formspree.io/johnpgeipel@gmail.com" method='POST'>
+                            <input type='hidden' name='form-name' value='contactForm' />
                             <div class="row">
                                <div class="col-md-6">
                                   <div class="form-group">
@@ -824,7 +825,7 @@
                                </div>
                                <div class="col-md-6">
                                   <div class="form-group">
-                                     <input type="email" name="_replyto" class="form-control" id="email" placeholder="Email *" required="required">
+                                     <input type="email" name="email" class="form-control" id="email" placeholder="Email *" required="required">
                                   </div>
                                </div>
                                <div class="col-md-12">
@@ -840,10 +841,11 @@
                                         Send Message
                                     </button>
                                 </div>
-                                <!-- <form action="https://formspree.io/email@domain.tld" method="POST">
-                                    <input type="text" name="name">
-                                    <input type="email" name="_replyto">
-                                    <input type="submit" value="Send">
+                                <!-- <form method="POST" action="https://formspree.io/johnpgeipel@gmail.com">
+                                    <input type="text" name="Name" placeholder="Your name">
+                                    <input type="email" name="email" placeholder="Your email">
+                                    <textarea name="message" placeholder="Test Message"></textarea>
+                                    <button type="submit">Send Test</button>
                                   </form> -->
                             </div>
                         </form>
