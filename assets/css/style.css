@@ -1232,6 +1232,7 @@
           box-shadow: 0px 15px 15px rgba(112, 128, 144, 0.3);
         }
 
+
         .project-img {
           width: auto;
           height: 300px;
@@ -1250,6 +1251,12 @@
           margin-top: 150px;
           box-shadow: 0px 0px 0px;
 
+        }
+
+        #project {
+          position: relative;
+          margin-right: 0px;
+      
         }
 
         .item-overlay h6 {
