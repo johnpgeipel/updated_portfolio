@@ -1,4 +1,4 @@
-# **Updated Portfolio**
+# __Updated Portfolio__
 
 ### This is an updated representation of the skills and projects mastered during my time in the Trilogy Coding Bootcamp at the University of Wisconsin-Extension School.
 
