@@ -383,6 +383,9 @@
         background-color: #f6c71a;
       } */
       nav.navbar {
+        position: fixed;
+      }
+      nav.navbar {
       position: absolute;
       width: 100%;
       top: 0;
