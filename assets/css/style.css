@@ -798,11 +798,9 @@
         vertical-align: middle;
         width: 100%;
       }
-      /* .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      } */
+      a {
+        text-align: center;
+      }
 
       
       .skills {
