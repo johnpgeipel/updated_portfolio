@@ -492,6 +492,9 @@
         background-color: #f6c71a; }
         nav.fixed-top .nav-item .nav-link:after {
         background-color: #f6c71a; }
+        nav.navbar .ml-auto {
+          margin-left: auto;
+        }
         /* f6c71a */
         /* f6c71a */
         /*============ 4. Banner Section============*/
