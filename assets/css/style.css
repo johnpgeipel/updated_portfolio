@@ -494,6 +494,12 @@
         background-color: #f6c71a; }
         nav.navbar .ml-auto {
           margin-left: auto;
+          margin-right: 50px;
+        }
+        .navbar-toggler:focus {
+          text-decoration: none;
+          outline: 0;
+          box-shadow: 0 0 0 0rem;
         }
         /* f6c71a */
         /* f6c71a */
@@ -518,7 +524,7 @@
         z-index: -1;
         opacity: .6; }
         .banner-div {
-        top: 50%;
+        top: 40%;
         position: absolute;
         color: #fff;
         z-index: 11;
