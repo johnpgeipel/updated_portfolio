@@ -546,6 +546,9 @@
         width: 100%;
         left: 0px;
         }
+        .banner-container {
+          transform: none !important;
+        }
         .cd-headline {
         font-size: 3rem;
         line-height: 1.2; }
