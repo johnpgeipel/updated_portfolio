@@ -59,7 +59,8 @@
       position: relative;
       font-size: 16px;
       line-height: 1.65;
-      color: #748182;
+      /* color: #748182; */
+      color: #363636;
       -webkit-font-smoothing: antialiased; }
 
       p {
