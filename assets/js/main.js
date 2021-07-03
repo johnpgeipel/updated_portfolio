@@ -185,6 +185,10 @@ $(function() {
       autoplay:true
  
   });
+
+    //   Dynamic Footer Date
+    var date = new Date().getFullYear();
+    $("#copy-year").html("<span>&copy; John Geipel " + date + "</span>");
  
 
     var wind = $(window);
